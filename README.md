@@ -36,5 +36,5 @@ Launch Flask - see [Flask Quick Start](https://flask.palletsprojects.com/en/1.1.
 ``` Python
 flask run
 ```
-
+Tip: If there are .env or .flaskenv files present (as in the "Flask for Beginners" tutorial), run command "pip install python-dotenv" to use them.
 
