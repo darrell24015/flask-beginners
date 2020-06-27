@@ -8,10 +8,27 @@ Code and tutorials also on [GitHub](https://github.com/PrettyPrinted) and [YouTu
 
 ## Virtual Environment
 
-This Flask project was built on Windows 10 using a virtual environment using venv. See the following guides:
+This Flask project was built on Windows 10 using a virtual environment. See the following guides:
 
 [Pipenv & Virtual Environments](https://docs.python-guide.org/dev/virtualenvs/) - see Lower level: virtualenv
 
 [Creation of virtual environments](https://docs.python.org/3/library/venv.html) - see instructions for Windows
 
 Of course, you can do the same in MacOS or Linux following instructions for those platforms.  Also, pipevn if you prefer.
+
+### Commands
+
+Initialize virtual environment
+``` Python
+c:\>python -m venv c:\path\to\env
+```
+Activate virtual environment
+``` Python
+C:\Users\SomeUser\project_folder> env\Scripts\activate
+```
+
+To stop the virtual environment
+```Python
+deactivate
+```
+
