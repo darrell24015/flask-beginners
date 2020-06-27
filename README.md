@@ -32,3 +32,9 @@ To stop the virtual environment
 deactivate
 ```
 
+Launch Flask - see [Flask Quick Start](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+``` Python
+flask run
+```
+
+
