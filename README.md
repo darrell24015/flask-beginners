@@ -38,3 +38,31 @@ flask run
 ```
 Tip: If there are .env or .flaskenv files present (as in the "Flask for Beginners" tutorial), run command "pip install python-dotenv" to use them.
 
+### Adding HTML to a Page
+For your first time with Flask, most tutorials start with Hello World like this:
+
+```Python
+@app.route('/')
+def index():
+    return 'Hello World!'
+```
+
+Beyond returning a line of text, your next step is to add proper HTML to each page.
+
+``` Python
+@app.route('/')
+def index():
+    return '''
+        <html>
+            <body>
+                <p>Welcome to My Flask App</p>
+                <form>
+                    <p><input name="number1" /></p>
+                    <p><input name="number2" /></p>
+                    <p><input type="submit" value="Do calculation" /></p>
+                </form>
+            </body>
+        </html>
+    '''
+```
+
